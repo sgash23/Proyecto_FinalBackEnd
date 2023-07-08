@@ -16,7 +16,7 @@ module.exports = { addFuncionario };
 
 //metodo para CREAR funcionarios a la base de datos.
 
-//para probar en postman
+//formato para probar body en Postman
 
 //"codFuncionario":"",
 //"nombre":"",

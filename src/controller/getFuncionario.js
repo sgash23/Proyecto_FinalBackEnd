@@ -1,6 +1,6 @@
 const CarabinerosModel = require("../models/funcionariosCarabs");
 
-//busqueda del listado completo
+//busqueda del listado completo de la base de datos
 const getFuncionario = async (req, res) => {
     try {
         const listaFuncionarios = await CarabinerosModel.find();
@@ -11,7 +11,7 @@ const getFuncionario = async (req, res) => {
     }
 };
 
-//busqueda por nombre
+//busqueda por un nombre específico
 const getNombreFuncionario = async (req, res) => {
     try {
         const { nombre } = req.params;

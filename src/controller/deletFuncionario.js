@@ -17,4 +17,4 @@ const borrarFuncionario = async (req, res) => {
 module.exports = { borrarFuncionario };
 
 
-//metodo para ELIMINAR funcionarios a la base de datos.
+//metodo para ELIMINAR funcionarios de la base de datos.

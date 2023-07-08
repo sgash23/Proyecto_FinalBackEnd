@@ -1,4 +1,4 @@
-//Midleware para obtener fecha, hora y tipo solicitud.
+//Midleware propio para obtener fecha, hora y tipo solicitud.
 
 const getFecha = ((req, res, next) => {
      console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
